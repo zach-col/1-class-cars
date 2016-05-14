@@ -1,0 +1,69 @@
+body{
+	background-color: black;
+    overflow-x: hidden;
+    padding-top: 50px;
+
+}
+
+ /* navbar brand color */
+.navbar-default .navbar-brand {
+    color: #F00;
+}
+
+.navbar-brand:hover {
+	color: white;
+}
+/* making navbar black */
+.navbar-default {
+    background-color: #000000;
+    border-color: #e7e7e7;
+}
+/* changing navbar brand hovor color */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: white;
+}
+/* changinh icon-bar to white */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+/* header */
+.header {
+  text-align: center;
+  color: red;
+}
+
+
+img{
+  height: 400px;
+  width: 400px;
+}
+
+.info{
+  list-style-type: none;
+  font-size: 40px;
+  color: white;
+}
+/* changing contact phone color */
+.phone:focus, .phone:hover, .phone:visited {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+/* Phone number */
+.phone{
+  color: white;
+  text-decoration: underline;
+}
+/* phone number changing color active */
+.phone:active{
+  text-decoration: underline;
+  color: #bfbfbf;
+}
+
+.text{
+    font-size: 35px;
+}
+/* changing navbar colors */
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
