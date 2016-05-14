@@ -1,0 +1,84 @@
+body{
+  background-color: black;
+    overflow-x: hidden;
+    padding-top: 50px;
+
+}
+
+ /* navbar brand color */
+.navbar-default .navbar-brand {
+    color: #F00;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+/* making navbar black */
+.navbar-default {
+    background-color: #000000;
+    border-color: #e7e7e7;
+}
+/* changing navbar brand hovor color */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: white;
+}
+/* changinh icon-bar to white */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+/* car Image */
+.carImage{
+  height: 400px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+/* making row go to center of page */
+.row{
+  margin: 0 auto;
+}
+
+
+
+/* making text go to left */
+.wrapper {
+  display: inline-block;
+  margin-top: 25px;
+  margin-left:;
+  position: relative;  
+  text-align: left;
+}
+/* displaying block 100% */
+.wrapper img {
+  display: block;
+  max-width:100%;
+}
+
+.wrapper .overlay {
+  position: absolute;
+  top:60%;
+  left:0;
+  width:90%;
+  height:100%;
+  color:white;
+}
+ /* car img name */
+.wrapper .overlay h1 {
+  background-color: rgba(255,255,255,0.7); /* backup color */
+  background-color: rgba(255,0,0,0.7);
+}
+
+/* changing navbar colors */
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+
+#footer{
+  text-align: center;
+}
+
+
+.navbar-collapse{
+    max-height:auto;
+}
