@@ -73,6 +73,11 @@ body{
     color: #FFF;
 }
 
-#footer{
-  text-align: center;
+.footer{
+  text-align: left;
 }
+
+hr{
+  color: white;
+}
+
