@@ -16,10 +16,10 @@
 </head>
 <body>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -27,60 +27,57 @@
           </button>
           <a class="navbar-brand" href="index.html">1ST CLASS CARS</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="directions.html">Directions</a></li>
-            <li class="dropdown active">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cars for sale <span class="caret"></span></a>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cars for sale <b class="caret"></b></a>
               <ul class="dropdown-menu">
+              <li class="dropdown-header">The cars for you</li>
                 <li><a href="mercedes.html">Mercede's</a></li>
                 <li><a href="mustangs.html">Mustang's</a></li>
-                <li><a href="hotwheels.html">Hot Wheel's</a></li>
+                <li class="active"><a href="hotwheels.html">Hot Wheel's</a></li>
                 <li><a href="ferraris.html">Ferrari's</a></li>
                 <li><a href="bmws.html">BMW's</a></li>
                 <li><a href="corvettes.html">Corvette's</a></li>
               </ul>
             </li>
           </ul>
-<!--           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
-          </ul> -->
         </div><!--/.nav-collapse -->
-      </div> <!-- end of container -->
-    </nav>
+      </div>
+    </div>
+
   <div class="row">
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2014/02/09/01/56/vintage-cars-262483_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/hMain.jpg"/>
         <div class="overlay">
           <h1>Hot Wheel's</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2016/01/09/17/33/classic-car-1130619_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/hYellow.jpg"/>
         <div class="overlay">
           <h1>Hot Wheel fully restored $50,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2014/10/12/02/33/oldtimer-485346_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/hBlack.jpg"/>
         <div class="overlay">
-          <h1>Purple Hot Wheel $14,000</h1>
+          <h1>Black Hot Wheel $14,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2014/04/05/11/21/hot-rod-315367_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/hRed.jpg"/>
         <div class="overlay">
           <h1>Red Hot Wheel $24,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2015/07/08/11/12/dodge-836028_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/hOrange.jpg"/>
         <div class="overlay">
-          <h1>Green Hot Wheel $48,000</h1>
+          <h1>Orange Hot Wheel $48,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
