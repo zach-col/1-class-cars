@@ -16,10 +16,10 @@
 </head>
 <body>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -27,16 +27,17 @@
           </button>
           <a class="navbar-brand" href="index.html">1ST CLASS CARS</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="directions.html">Directions</a></li>
-            <li class="dropdown active">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cars for sale <span class="caret"></span></a>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cars for sale <b class="caret"></b></a>
               <ul class="dropdown-menu">
+              <li class="dropdown-header">The cars for you</li>
                 <li><a href="mercedes.html">Mercede's</a></li>
-                <li><a href="mustangs.html">Mustang's</a></li>
+                <li class="active"><a href="mustangs.html">Mustang's</a></li>
                 <li><a href="hotwheels.html">Hot Wheel's</a></li>
                 <li><a href="ferraris.html">Ferrari's</a></li>
                 <li><a href="bmws.html">BMW's</a></li>
@@ -44,47 +45,42 @@
               </ul>
             </li>
           </ul>
-<!--           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
-          </ul> -->
         </div><!--/.nav-collapse -->
-      </div> <!-- end of container -->
-    </nav>
+      </div>
+    </div>
   <div class="row">
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2015/12/08/00/28/car-1081742_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/mustMain.jpg"/>
         <div class="overlay">
           <h1>Mustang's</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2016/05/06/17/05/car-1376248_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/mustBlack.jpg"/>
         <div class="overlay">
           <h1>Mustang's fully restored $50,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2016/03/02/13/42/mustang-1232361_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/mustPink.jpg"/>
         <div class="overlay">
           <h1>Pink Mustang's $14,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2014/03/19/14/50/ford-290615_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/mustRed.jpg"/>
         <div class="overlay">
           <h1>Red Mustang's $24,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2016/03/02/18/28/mustang-1232761_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/mustBlue.jpg"/>
         <div class="overlay">
           <h1>Blue Mustang's $48,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2014/04/29/01/38/auto-334159_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/mustWhite.jpg"/>
         <div class="overlay">
           <h1>White Mustang's $38,000</h1>
         </div>

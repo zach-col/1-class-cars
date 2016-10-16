@@ -28,6 +28,10 @@ body{
   color: red;
   background-color: transparent;
 }
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: white;
+    background-color: transparent;
+}
 /* car Image */
 .carImage{
   height: 400px;
