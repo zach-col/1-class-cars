@@ -16,10 +16,10 @@
 </head>
 <body>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -27,15 +27,16 @@
           </button>
           <a class="navbar-brand" href="index.html">1ST CLASS CARS</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="directions.html">Directions</a></li>
-            <li class="dropdown active">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cars for sale <span class="caret"></span></a>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cars for sale <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="mercedes.html">Mercede's</a></li>
+              <li class="dropdown-header">The cars for you</li>
+                <li class="active"><a href="mercedes.html">Mercede's</a></li>
                 <li><a href="mustangs.html">Mustang's</a></li>
                 <li><a href="hotwheels.html">Hot Wheel's</a></li>
                 <li><a href="ferraris.html">Ferrari's</a></li>
@@ -44,47 +45,42 @@
               </ul>
             </li>
           </ul>
-<!--           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
-          </ul> -->
         </div><!--/.nav-collapse -->
-      </div> <!-- end of container -->
-    </nav>
+      </div>
+    </div>
   <div class="row">
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2016/05/03/23/46/mercedes-benz-1370536_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/merWhite.jpg"/>
         <div class="overlay">
           <h1>Mercede's</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2016/03/30/20/20/auto-1291494_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/merAmg.jpg"/>
         <div class="overlay">
           <h1>Mercede's Amg $50,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2016/03/08/07/52/mercedes-1243569_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/merPink.jpg"/>
         <div class="overlay">
           <h1>Pink Mercede's $48,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2014/12/12/01/52/mercedes-564949_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/merRed.jpg"/>
         <div class="overlay">
           <h1>Red Mercede's $48,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2015/09/08/11/56/mercedes-benz-class-c-break-929830_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/merBlue.jpg"/>
         <div class="overlay">
           <h1>Blue Mercede's $48,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2015/08/30/12/56/auto-914236_960_720.jpg"/>
+        <img class="carImage image-responsive center-block" src="img/merWhite.jpg"/>
         <div class="overlay">
           <h1>White Mercede's $48,000</h1>
         </div>
