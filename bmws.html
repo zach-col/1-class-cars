@@ -16,10 +16,10 @@
 </head>
 <body>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -27,66 +27,62 @@
           </button>
           <a class="navbar-brand" href="index.html">1ST CLASS CARS</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="directions.html">Directions</a></li>
-            <li class="dropdown active">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cars for sale <span class="caret"></span></a>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cars for sale <b class="caret"></b></a>
               <ul class="dropdown-menu">
+              <li class="dropdown-header">The cars for you</li>
                 <li><a href="mercedes.html">Mercede's</a></li>
                 <li><a href="mustangs.html">Mustang's</a></li>
                 <li><a href="hotwheels.html">Hot Wheel's</a></li>
                 <li><a href="ferraris.html">Ferrari's</a></li>
-                <li><a href="bmws.html">BMW's</a></li>
+                <li class="active"><a href="bmws.html">BMW's</a></li>
                 <li><a href="corvettes.html">Corvette's</a></li>
               </ul>
             </li>
           </ul>
-<!--           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
-          </ul> -->
         </div><!--/.nav-collapse -->
-      </div> <!-- end of container -->
-    </nav>
+      </div>
+    </div>
   <div class="row">
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2015/11/30/12/50/auto-1070251_960_720.jpg"/>
+        <img class="carImage img-responsive center-block" src="img/blackblueBmw.jpg"/>
         <div class="overlay">
           <h1>BMW's</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2016/04/24/10/51/sports-car-1349150_960_720.jpg"/>
+        <img class="carImage img-responsive center-block" src="img/blackBmw.jpg"/>
         <div class="overlay">
-          <h1>Black BMW w Red interrior $50,000</h1>
+          <h1>Black BMW $50,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2016/03/14/20/48/limousine-1256253_960_720.jpg"/>
+        <img class="carImage img-responsive center-block" src="img/orangeBmw.jpg"/>
         <div class="overlay">
-          <h1>BMW Limo $80,000</h1>
+          <h1>Orange BMW $40,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2015/01/22/16/29/car-607934_960_720.jpg"/>
+        <img class="carImage img-responsive center-block" src="img/blueBmw.jpg"/>
         <div class="overlay">
-          <h1>Red BMW $41,000</h1>
+          <h1>Blue BMW $41,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2016/04/24/10/53/sports-car-1349158_960_720.jpg"/>
+        <img class="carImage img-responsive center-block" src="img/whiteBmw.jpg"/>
         <div class="overlay">
-          <h1>Gray BMW $21,000</h1>
+          <h1>Grey BMW $21,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2016/03/23/07/44/bmw-1274292_960_720.jpg"/>
+        <img class="carImage img-responsive center-block" src="img/blackblueBmw.jpg"/>
         <div class="overlay">
-          <h1>Blue BMW $21,000</h1>
+          <h1>Black BMW With Blue Interrior $21,000</h1>
         </div>
     </div>
   </div>
