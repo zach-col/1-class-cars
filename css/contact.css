@@ -1,14 +1,17 @@
 body{
   background-color: black;
-  overflow-x: hidden;
-  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+h1{
+  color: white;
 }
  /* navbar brand color */
 .navbar-default .navbar-brand {
   color: #F00;
 }
 .navbar-brand:hover {
-	color: white;
+  color: white;
 }
 /* making navbar black */
 .navbar-default {
@@ -22,43 +25,53 @@ body{
 }
 /* changinh icon-bar to white */
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #FFF;
+    background-color: #FFF;
 }
-/* header */
-.header {
-  text-align: center;
-  color: red;
-}
-img{
+/* car Image */
+.carImage{
   height: 400px;
-  width: 400px;
+  width: 100%;
+  margin-bottom: 10px;
 }
-.info{
-  list-style-type: none;
-  font-size: 40px;
-  color: white;
+/* making row go to center of page */
+.row{
+  margin: 0 auto;
 }
-/* changing contact phone color */
-.phone:focus, .phone:hover, .phone:visited {
-    color: #FFFFFF;
-    text-decoration: underline;
+/* making text go to left */
+.wrapper {
+  display: inline-block;
+  margin-top: 25px;
+  margin-left:;
+  position: relative;  
+  text-align: left;
 }
-/* Phone number */
-.phone{
-  color: white;
-  text-decoration: underline;
+/* displaying block 100% */
+.wrapper img {
+  display: block;
+  max-width:100%;
 }
-/* phone number changing color active */
-.phone:active{
-  text-decoration: underline;
-  color: #bfbfbf;
+.wrapper .overlay {
+  position: absolute;
+  top:60%;
+  left:0;
+  width:90%;
+  height:0%;
+  color:white;
 }
-.text{
-  font-size: 35px;
+ /* car img name */
+.wrapper .overlay h1 {
+  background-color: rgba(255,255,255,0.7); /* backup color */
+  background-color: rgba(255,0,0,0.7);
 }
 /* changing navbar colors */
 .navbar-default .navbar-nav>li>a {
   color: #FFF;
+}
+.footer{
+  color: red;
+}
+.navbar-collapse{
+  max-height:auto;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: red;
@@ -67,4 +80,17 @@ img{
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
   color: white;
   background-color: transparent;
+}
+hr{
+  color: white;
+}
+.row {
+  margin: 0 auto;
+  word-wrap: break-word;
+}
+.person{
+  padding-top: 20px;
+}
+.footerText{
+  color: red;
 }
