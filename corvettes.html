@@ -16,10 +16,10 @@
 </head>
 <body>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -27,64 +27,60 @@
           </button>
           <a class="navbar-brand" href="index.html">1ST CLASS CARS</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="directions.html">Directions</a></li>
-            <li class="dropdown active">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cars for sale <span class="caret"></span></a>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cars for sale <b class="caret"></b></a>
               <ul class="dropdown-menu">
+              <li class="dropdown-header">The cars for you</li>
                 <li><a href="mercedes.html">Mercede's</a></li>
                 <li><a href="mustangs.html">Mustang's</a></li>
                 <li><a href="hotwheels.html">Hot Wheel's</a></li>
                 <li><a href="ferraris.html">Ferrari's</a></li>
                 <li><a href="bmws.html">BMW's</a></li>
-                <li><a href="corvettes.html">Corvette's</a></li>
+                <li class="active"><a href="corvettes.html">Corvette's</a></li>
               </ul>
             </li>
           </ul>
-<!--           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
-          </ul> -->
         </div><!--/.nav-collapse -->
-      </div> <!-- end of container -->
-    </nav>
+      </div>
+    </div>
   <div class="row">
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2014/03/20/05/16/corvette-291056_960_720.jpg"/>
+        <img class="carImage img-responsive center-block" src="img/blackCor.jpg"/>
         <div class="overlay">
           <h1>Corvette's</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2015/07/03/02/07/corvette-829795_960_720.jpg"/>
+        <img class="carImage img-responsive center-block" src="img/whiteCor.jpg"/>
         <div class="overlay">
           <h1>White Corvette $50,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2015/03/18/04/06/z06-678731_960_720.jpg"/>
+        <img class="carImage img-responsive center-block" src="img/yellowCor.jpg"/>
         <div class="overlay">
           <h1>Yellow Corvette $80,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2016/02/07/18/06/sports-1185257_960_720.jpg"/>
+        <img class="carImage img-responsive center-block" src="img/redCor.jpg"/>
         <div class="overlay">
           <h1>Red Corvette $41,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2015/03/15/05/20/chevy-674055_960_720.jpg"/>
+        <img class="carImage img-responsive center-block" src="img/orangeCor.jpg"/>
         <div class="overlay">
           <h1>Orange Corvette $21,000</h1>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no wrapper">
-        <img class="carImage image-responsive center-block" src="https://pixabay.com/static/uploads/photo/2014/10/12/22/28/corvette-486243_960_720.jpg"/>
+        <img class="carImage img-responsive center-block" src="img/blueCor.jpg"/>
         <div class="overlay">
           <h1>Blue Corvette $21,000</h1>
         </div>
