@@ -9,8 +9,16 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <!-- custom css -->
   <link rel="stylesheet" type="text/css" href="css/directions.css">
+  <!-- loader css -->
+  <link rel="stylesheet" type="text/css" href="css/loader.css">
 </head>
-<body>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader">
+  <h3>1st class cars</h3>
+</div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
@@ -64,6 +72,8 @@
       </div>
     </div>
 
+  <!-- screen loader -->
+  <script src="js/screenLoader.js"></script>
   <!-- Bootstrap jquery -->
   <script src="js/jquery.js"></script>
   <!-- Bootstrap javascript -->
