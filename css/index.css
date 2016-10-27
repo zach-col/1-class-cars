@@ -2,7 +2,6 @@ body{
   background-color: black;
   margin-top: 50px;
   margin-bottom: 50px;
-
 }
  /* navbar brand color */
 .navbar-default .navbar-brand {
@@ -24,6 +23,13 @@ body{
 /* changinh icon-bar to white */
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #FFF;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: black;
+}
+@media (max-width: 767px)
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+  color: white;
 }
 /* car Image */
 .carImage{

@@ -3,6 +3,10 @@ body{
   margin-top: 50px;
   margin-bottom: 50px;
 }
+@media (max-width: 767px)
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+  color: white;
+}
  /* navbar brand color */
 .navbar-default .navbar-brand {
   color: red;
