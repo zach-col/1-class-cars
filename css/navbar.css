@@ -1,0 +1,81 @@
+.navbar-default {
+  background-color: black;
+}
+.navbar-default .navbar-brand {
+  color: #f00;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #bd0000;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #bd0000;
+  background: white;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #f00;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #bd0000;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: #f00;
+  background-color: white;
+}
+.dropdown-menu>li>a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #f00;
+  white-space: nowrap;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+  color: #bd0000;
+  text-decoration: none;
+  background-color: black;
+}
+@media only screen and (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #f00;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
+    background: white;
+    color: #f00;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #bd0000;
+    background-color: transparent;
+  }
+}
+/* nav toggle*/
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+.navbar-toggle {
+  border: 1px solid transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #f00;
+}
+.active{
+  background: white;
+}
+body{
+  background-color: white;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-family: 'Hind Guntur', sans-serif;
+}
+.btn-success {
+  margin-bottom: 83px;
+}
